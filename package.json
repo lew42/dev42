@@ -1,17 +1,20 @@
 {
   "name": "dev42",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "bin": "./index.js",
+  "bin": {
+    "dev42": "./index.js"
+  },
   "license": "UNLICENSED",
   "dependencies": {
     "globule": "^1.1.0",
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.2"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
