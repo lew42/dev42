@@ -7,7 +7,7 @@
   },
   "author": "",
   "bin": {
-    "dev42": "./index.js"
+    "dev42": "./index.js --inspect"
   },
   "license": "UNLICENSED",
   "dependencies": {
